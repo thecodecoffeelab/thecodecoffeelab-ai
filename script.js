@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://xalaat-ai-chat-gpt-client.vercel.app', {
+    const response = await fetch('https://thecodecoffeelab-gpt-ai.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
